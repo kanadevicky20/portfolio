@@ -163,7 +163,7 @@ export const projectsData = {
       title: 'Musician-Profile',
       info: 'This is small single page app bassed on musician profile',
       info2: 'Technology :React JS : Visual Studio, Git, VS Code ',
-      url: '',
+      url: 'https://luckykanade.netlify.app/',
       repo: '#',
     },
   //..........................
