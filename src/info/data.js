@@ -1,25 +1,25 @@
 import { nanoid } from 'nanoid';
 
 export const headData = {
-  title: 'Charul Patidar | Developer',
+  title: 'Vikash Kanade | Developer',
   lang: 'en',
-  description: 'Charul Patidar | Developer',
+  description: 'Vikash Kanade | Developer',
 };
 
 export const heroData = {
   title: '',
-  name: 'Charul Patidar',
+  name: ' Vikash Kanade ',
   subtitle: "I'm Full Stack Developer",
   cta: '',
 };
 
 export const aboutData = {
-  img: 'me.jpg',
+  img: 'vicky.png',
   paragraphOne:
     'I am  currently working as a Full Stack Developer. I am very much interested in developing new things which excite me a lot.',
   paragraphTwo: 'I love exploring new technologies and being a practitioner.',
   paragraphThree: '',
-  resume: 'https://www.canva.com/design/DAFtk0Y6RME/UCC73gLIAZrI15FrH6V3VQ/view?utm_content=DAFtk0Y6RME&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
+  resume: 'https://www.canva.com/design/DAFyAlWzXIM/zemkx3ZJSBxwpW2h5IiyGA/edit',
 };
 
 export const skillsData = [
@@ -127,6 +127,7 @@ export const skillsData = [
     info2: '',
     url: 'https://spring.io/projects/spring-boot/',
   },
+  
 
 ];
 
@@ -146,6 +147,26 @@ export const experienceData = [
 // PROJECT DATA
 export const projectsData = {
   projects: [
+    //............................
+    {
+      id: nanoid(),
+      img: 'projects/news.jpg',
+      title: 'Shiksha-Bharat-Portal',
+      info: 'It is a web based application with aim to make one student one record and educational records paperless and national level connectivity,We implemented this project through microservices.We have 3 major actors admin which perform operations like creating institute,read the whole data etc.Institute is another with functions i.e. selecting course,creation of institute level desk etc.Student is last one which can access its personal and academic record.',
+      info2: 'Technology :  J2EE WebApi, React JS, MySql Server, Git, VS Code, Draw IO',
+      url: 'https://shiksha-bharat-portal.vercel.app/',
+      repo: 'https://github.com/shiksha-bharat/CDACProject',
+    },
+    {
+      id: nanoid(),
+      img: 'projects/musicApp.jpg',
+      title: 'Musician-Profile',
+      info: 'This is small single page app bassed on musician profile',
+      info2: 'Technology :React JS : Visual Studio, Git, VS Code ',
+      url: '',
+      repo: '#',
+    },
+  //..........................
     {
       id: nanoid(),
       img: 'projects/pixelSpot.jpg',
@@ -164,10 +185,12 @@ export const projectsData = {
       url: 'https://charul-todo.netlify.app/',
       repo: 'https://github.com/Charul007/TodoList.git',
     },
+  
+
   ],
   seeMore : {
     cta: 'See More On Github',
-    link: 'https://github.com/Charul007',
+    link: 'https://github.com/kanadevicky20',
   }
 };
 
@@ -175,23 +198,28 @@ export const projectsData = {
 export const contactData = {
   title: 'Contact',
   cta: 'Would you like to connect with me? Awesome!',
-  btn: "Let's Connect",
-  linkedIn: 'https://www.linkedin.com/in/charul-patidar-981975170/',
+  btn: "Let's Connect on Linkedin",
+  linkedIn: 'https://www.linkedin.com/in/vikash-kanade-39a556219/',
   email: '',
 };
 
-// FOOTER DATA
+// FOOTER DATA 
 export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/charul-patidar-981975170/',
+      name: 'instagram',
+      url: 'https://www.instagram.com/vicky_kanade56/?hl=en',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/vicky.kanade.568',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/Charul007',
+      url: 'https://github.com/kanadevicky20',
     },
   ],
 };

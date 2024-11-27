@@ -25,18 +25,23 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://www.linkedin.com/in/charul-patidar-981975170/'}
+                  href={url || 'https://www.linkedin.com/in/vikash-kanade-39a556219/'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
                 >
+                  
                   <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
                 </a>
               );
             })}
         </div>
         <hr />
-        <p className='mt-2'>@Charul-Patidar</p>
+        
+         <p className='mt-2'>@Vikash-Kanade from Indore</p>
+        <p className='mt-2'>Contact +91-8889078253 / Email- kanadevicky20@gmail.com</p>
+    
+        
       </Container>
     </footer>
   );

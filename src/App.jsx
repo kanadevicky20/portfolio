@@ -45,10 +45,10 @@ function App() {
     <>
       <Helmet >
         <meta charSet="utf-8" />
-        <title>{title || 'Ritik Patidar | Developer'}</title>
+        <title>{title || 'Vikash Kanade | Developer'}</title>
         <html lang={lang || 'en'} />
-        <meta name="keywords" content="Ritik,Patidar ,Ritik Patidar, Developer,MERN Developer" />
-        <meta name="description" content={description || 'Ritik Patidar | Developer'} />
+        <meta name="keywords" content="Vikash Kanade, Developer,MERN Developer" />
+        <meta name="description" content={description || 'Vikash Kanade | Developer'} />
       </Helmet>
       <PortfolioProvider value={{ hero, about, skills, experiences, projects, contact, footer }} >
         <Hero />
